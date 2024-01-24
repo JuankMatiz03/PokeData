@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o6u-HF-1tf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PokeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="que-An-AlC">
+                                        <rect key="frame" x="8" y="240" width="304" height="88"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9882352941176471" green="0.48627450980392156" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="que-An-AlC" secondAttribute="trailing" constant="8" id="FON-qL-Q1J"/>
+                                    <constraint firstItem="que-An-AlC" firstAttribute="centerY" secondItem="o6u-HF-1tf" secondAttribute="centerY" id="gEY-Ac-dBW"/>
+                                    <constraint firstItem="que-An-AlC" firstAttribute="leading" secondItem="o6u-HF-1tf" secondAttribute="leading" constant="8" id="taS-MR-jMu"/>
+                                    <constraint firstItem="que-An-AlC" firstAttribute="centerX" secondItem="o6u-HF-1tf" secondAttribute="centerX" id="uWl-xK-0Iv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="o6u-HF-1tf" secondAttribute="bottom" id="6RY-b7-pmb"/>
+                            <constraint firstItem="o6u-HF-1tf" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Bwu-Oy-Me5"/>
+                            <constraint firstItem="o6u-HF-1tf" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="GB8-pn-meb"/>
+                            <constraint firstItem="o6u-HF-1tf" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="VsG-XD-n3g"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.875" y="370.77464788732397"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PokeLogo" width="252" height="88"/>
+    </resources>
+</document>
